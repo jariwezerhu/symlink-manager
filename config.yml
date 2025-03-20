@@ -1,0 +1,28 @@
+# Symlink Manager Configuration
+
+# Paths configuration
+paths:
+  # Base directory for torrent files
+  torrents: "/path/to/torrents"
+  
+  # Base directory for media library
+  library: "/path/to/plex/"
+  
+  # Path to database file (will be automatically converted to SQLite connection string)
+  database: "/path/to/media.db"  # Can be relative or absolute path
+
+# Directory structure configuration
+directories:
+  # Whether to separate anime content into different directories
+  separate_anime: true
+  
+  # Directory names
+  movies: "movies"
+  shows: "shows"
+  anime_movies: "anime_movies"
+  anime_shows: "anime_shows"
+
+# Logging configuration
+logging:
+  # Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  level: "INFO"
